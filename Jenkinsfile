@@ -24,7 +24,7 @@ pipeline {
         }
         stage('Verification') {
             steps {
-                sh 'docker images | grep ":ci"'
+                sh "docker images --format '{{.Repository}}:{{.Tag}}' | grep ':ci'"
             }
         }
     }
