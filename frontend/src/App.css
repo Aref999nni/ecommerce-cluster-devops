@@ -1,0 +1,8 @@
+.App { text-align: center; font-family: 'Segoe UI', sans-serif; background-color: #282c34; min-height: 100vh; color: white; display: flex; justify-content: center; align-items: center; }
+.card { background: #3b404e; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); width: 400px; }
+input { display: block; width: 90%; margin: 10px auto; padding: 10px; border-radius: 5px; border: none; }
+button { background: #61dafb; border: none; padding: 10px 20px; font-weight: bold; cursor: pointer; border-radius: 5px; margin-top: 10px; }
+.grid { display: flex; flex-direction: column; gap: 10px; margin-top: 20px; }
+.product-card { background: #4b5162; padding: 10px; border-radius: 8px; text-align: left; }
+.price { color: #61dafb; font-weight: bold; }
+.small { font-size: 0.8rem; color: #aaa; }
