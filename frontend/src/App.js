@@ -242,7 +242,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>🛍️ E-Commerce Microservices Cluster</h1>
+        <h1>🛍️ MON TITRE</h1>
 
         {!token ? (
           <div className="card">
